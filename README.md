@@ -1,30 +1,42 @@
-# React + TypeScript + Vite
+# Audio Notes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+Audio Notes is a simple yet powerful application designed for recording and organizing audio notes. With intuitive features and a user-friendly interface, Audio Notes allows users to capture and manage their ideas effortlessly.
 
-Currently, two official plugins are available:
+## Features
+- **Recording**: Easily record audio notes with the click of a button.
+- **Organization**: Organize your audio notes into categories or folders for easy access.
+- **Speech Recognition**: Utilizes advanced speech recognition technology to transcribe audio notes into text.
+- **React and TypeScript**: Developed using React and TypeScript for a modern and robust frontend.
+- **Custom Components**: Utilizes Lucide React for icons and Sonner for audio manipulation.
+- **Responsive Design**: Ensures a seamless experience across various devices and screen sizes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Dependencies
+- **@radix-ui/react-dialog**: "^1.0.5"
+- **@types/dom-speech-recognition**: "^0.0.4"
+- **date-fns**: "^3.3.1"
+- **lucide-react**: "^0.323.0"
+- **react**: "^18.2.0"
+- **react-dom**: "^18.2.0"
+- **sonner**: "^1.4.0"
 
-## Expanding the ESLint configuration
+## Development Dependencies
+- **@types/react**: "^18.2.55"
+- **@types/react-dom**: "^18.2.19"
+- **@typescript-eslint/eslint-plugin**: "^6.21.0"
+- **@typescript-eslint/parser**: "^6.21.0"
+- **@vitejs/plugin-react**: "^4.2.1"
+- **autoprefixer**: "^10.4.17"
+- **eslint**: "^8.56.0"
+- **eslint-plugin-react-hooks**: "^4.6.0"
+- **eslint-plugin-react-refresh**: "^0.4.5"
+- **postcss**: "^8.4.35"
+- **tailwindcss**: "^3.4.1"
+- **typescript**: "^5.2.2"
+- **vite**: "^5.1.0"
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Getting Started
+1. Clone the repository: `git clone https://github.com/your-username/audio-notes.git`
+2. Install dependencies: `npm install`
+3. Run the development server: `npm run dev`
+4. Open your browser and navigate to `http://localhost:3000`
